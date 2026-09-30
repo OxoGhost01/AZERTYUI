@@ -5,11 +5,11 @@ Q01: <réponse>
 commande: <commande(s) utilisée(s)>
 -->
 
-Q01: 
-commande: 
+Q01: Le nombre de commits accessibles depuis le tag depart est de 0.
+commande: `git rev-list --count depart..HEAD`
 
-Q02: 
-commande: 
+Q02: Le nom de l'auteur de la ligne return de la fonction formaterLigne est Sara Benali
+commande: `git blame -L :formaterLigne src/format.js`
 
 Q03: 
 commande: 
