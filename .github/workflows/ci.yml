@@ -32,6 +32,7 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: npm
       - run: npm ci
+      - run: mkdir -p coverage
       - run: >
           node --test --experimental-test-coverage
           --test-reporter=spec --test-reporter-destination=stdout
