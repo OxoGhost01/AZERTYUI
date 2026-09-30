@@ -5,14 +5,14 @@ Q01: <réponse>
 commande: <commande(s) utilisée(s)>
 -->
 
-Q01: Le nombre de commits accessibles depuis le tag depart est de 0.
-commande: `git rev-list --count depart..HEAD`
+Q01: 32
+commande: git rev-list --count depart
 
-Q02: Le nom de l'auteur de la ligne return de la fonction formaterLigne est Sara Benali
-commande: `git blame -L :formaterLigne src/format.js`
+Q02: Sara Benali
+commande: git blame -L :formaterLigne src/format.js
 
-Q03: 
-commande: 
+Q03: 4459c91715f9b1c97cf4776ad2e5afbdb3aa7051
+commande: git bisect start depart v0.2.0  && git bisect run node scripts/controle-alertes.js
 
 Q04: 
 commande: 
