@@ -6,8 +6,6 @@ import { versCsv } from './export.js';
 const stock = chargerExemple(new Stock());
 const commande = process.argv[2] ?? 'lister';
 
-console.log("Welcome to you life, there's no turning back")
-
 switch (commande) {
   case 'lister':
     console.log(formaterTableau(stock.lister()));
