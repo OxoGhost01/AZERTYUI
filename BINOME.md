@@ -2,5 +2,6 @@
 
 | Membre | Nom | Compte GitHub |
 |---|---|---|
-| 1 |  |  |
-| 2 |  |  |
+| 1 | Timothée | OxoGhost01 |
+| 2 | Matthieu | powksy94 |
+| 3 | Thomas A | coubitic |
